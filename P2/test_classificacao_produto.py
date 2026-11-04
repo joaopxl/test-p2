@@ -9,7 +9,7 @@ def test_classificar_produto_sem_estoque():
 
 # Teste 2
 def test_classificar_produto_estoque_baixo():
-    result = classificacao_produto.classificar_produto(3)
+    result = classificacao_produto.classificar_produto(2)
     assert result == "Estoque baixo"
 
 
